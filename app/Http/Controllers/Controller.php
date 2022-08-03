@@ -1,6 +1,5 @@
 <?php
 
-//teste para ver se o github deu pau
 namespace App\Http\Controllers;
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
