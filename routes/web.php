@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\CaixaController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get(uri: 'user/{user}', function (App\Models\User $user) {
-    return '$user';
-});
+Route::get('/', [CaixaController::class, 'index']);
+Route::get('/dashboard', [CaixaController::class, 'dashboard']);
+
+
