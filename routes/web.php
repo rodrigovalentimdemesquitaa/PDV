@@ -15,6 +15,5 @@ use App\Http\Controllers\CaixaController;
 */
 
 Route::get('/', [CaixaController::class, 'index']);
-Route::get('/dashboard', [CaixaController::class, 'dashboard']);
 
 
