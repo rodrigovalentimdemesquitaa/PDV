@@ -14,6 +14,8 @@ use App\Http\Controllers\CaixaController;
 |
 */
 
-Route::get('/', [CaixaController::class, 'index']);
+Route::get('/', function(){
+    return view ("welcome");
+});
 
 
